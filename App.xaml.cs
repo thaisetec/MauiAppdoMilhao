@@ -330,6 +330,164 @@ namespace MauiAppdoMilhao
                         new Alternativa{Correta = false, Descricao= "CARLOS GALHARDO" }
                      }
               },
+              new Pergunta
+              {
+                     Id= 5,
+                     Enunciado= "Quantos jogadores um jogo de vôlei reúne na quadra?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = false, Descricao= "SEIS" },
+                        new Alternativa{Correta = false, Descricao= "OITO" },
+                        new Alternativa{Correta = false, Descricao= "DEZ" },
+                        new Alternativa{Correta = false, Descricao= "DOZE" }
+                     }
+              },
+              new Pergunta
+              {
+                     Id= 6,
+                     Enunciado= "Como é chamado quem nasce em Milão, na Itália?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = false, Descricao= "MILANESE" },
+                        new Alternativa{Correta = false, Descricao= "MILANOSO" },
+                        new Alternativa{Correta = false, Descricao= "MILISTA" },
+                        new Alternativa{Correta = false, Descricao= "MILANÊS" }
+                     }
+              },
+              new Pergunta
+              {
+                     Id= 7,
+                     Enunciado= "Que profissional usa uma ferramenta chamada formão??",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = false, Descricao= "CARPINTEIRO" },
+                        new Alternativa{Correta = false, Descricao= "RELOJOEIRO" },
+                        new Alternativa{Correta = false, Descricao= "CONFEITEIRO" },
+                        new Alternativa{Correta = false, Descricao= "BOMBEIRO" }
+                     }
+              },
+              new Pergunta
+              {
+                     Id= 8,
+                     Enunciado= "Peroba é uma espécie de?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = false, Descricao= "INSETO" },
+                        new Alternativa{Correta = true, Descricao= "ARVORE" },
+                        new Alternativa{Correta = false, Descricao= "VERME" },
+                        new Alternativa{Correta = false, Descricao= "VERDURA" }
+                     }
+              },
+              new Pergunta
+              {
+                     Id= 9,
+                     Enunciado= "O alpinismo é praticado em que lugar?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = false, Descricao= "MAR" },
+                        new Alternativa{Correta = true, Descricao= "MONTANHA" },
+                        new Alternativa{Correta = false, Descricao= "RIO" },
+                        new Alternativa{Correta = false, Descricao= "PRAIA" }
+                     }
+              },
+              new Pergunta
+              {
+                     Id= 10,
+                     Enunciado= "O Coliseu é um monumento histórico de que cidade européia?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = false, Descricao= "PARIS" },
+                        new Alternativa{Correta = true, Descricao= "COPENHAGUE" },
+                        new Alternativa{Correta = false, Descricao= "ROMA" },
+                        new Alternativa{Correta = false, Descricao= "LONDRES" }
+                     }
+              },
+              new Pergunta
+              {
+                     Id= 11,
+                     Enunciado= "Qual é a raça do personagem principal do filme “Beethoven”?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = false, Descricao= "FILA" },
+                        new Alternativa{Correta = true, Descricao= "PASTOR ALEMÃO" },
+                        new Alternativa{Correta = false, Descricao= "POODLE" },
+                        new Alternativa{Correta = true, Descricao= "SÃO BERNARDO" }
+                     }
+              },
+               new Pergunta
+              {
+                     Id= 12,
+                     Enunciado= "Segundo a crença popular, a mula-sem-cabeça é mulher de quem?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = false, Descricao= "DO COROINHA" },
+                        new Alternativa{Correta = true, Descricao= "DO PADRE" },
+                        new Alternativa{Correta = false, Descricao= " DO SACRISTÃO" },
+                        new Alternativa{Correta = false, Descricao= "DO BISPO" }
+                     }
+              },
+               new Pergunta
+              {
+                     Id= 13,
+                     Enunciado= "Que atriz protagonizou o filme “Titanic?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = false, Descricao= "CAMERON DIAZ" },
+                        new Alternativa{Correta = true, Descricao= " KATE WINSLET" },
+                        new Alternativa{Correta = false, Descricao= "BRIDGET FONDA" },
+                        new Alternativa{Correta = false, Descricao= " CATHERINE ZETTA JONES" }
+                     }
+              },
+               new Pergunta
+              {
+                     Id= 14,
+                     Enunciado= "Como é chamada a doença que causa perda desigual da melanina?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = false, Descricao= "ASTIGMATISMO" },
+                        new Alternativa{Correta = true, Descricao= " TENDINITE" },
+                        new Alternativa{Correta = false, Descricao= "VITILIGO" },
+                        new Alternativa{Correta = false, Descricao= " VITINGA" }
+                     }
+              },
+               new Pergunta
+              {
+                     Id= 15,
+                     Enunciado= "Qual é a moeda oficial da Alemanha?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = false, Descricao= "LIRA" },
+                        new Alternativa{Correta = true, Descricao= " MARCO" },
+                        new Alternativa{Correta = false, Descricao= "FRANCO" },
+                        new Alternativa{Correta = false, Descricao= " LIBRA" }
+                     }
+              },
+               new Pergunta
+              {
+                     Id= 16,
+                     Enunciado= "Que planta era usada para fabricação de papel no antigo Egito",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = true, Descricao= "PAPIRO" },
+                        new Alternativa{Correta = false, Descricao= " EUCALIPTO" },
+                        new Alternativa{Correta = false, Descricao= "OLIVEIRA" },
+                        new Alternativa{Correta = false, Descricao= "MILHO" }
+                     }
+              },
+                new Pergunta
+              {
+                     Id= 17,
+                     Enunciado= "Quando começou e terminou a Primeira Guerra Mundial",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = true, Descricao= "PAPIRO" },
+                        new Alternativa{Correta = false, Descricao= " EUCALIPTO" },
+                        new Alternativa{Correta = false, Descricao= "OLIVEIRA" },
+                        new Alternativa{Correta = false, Descricao= "MILHO" }
+                     }
+              },
+
+
 
 
 
