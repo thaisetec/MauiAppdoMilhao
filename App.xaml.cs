@@ -268,7 +268,7 @@ namespace MauiAppdoMilhao
                      }
                 },
         }
-         List<Pergunta> perguntas_medias = new()
+        List<Pergunta> perguntas_medias = new()
          {
               new Pergunta
               {
@@ -486,6 +486,232 @@ namespace MauiAppdoMilhao
                         new Alternativa{Correta = false, Descricao= "MILHO" }
                      }
               },
+                new Pergunta
+              {
+                     Id= 18,
+                     Enunciado= "Que rio corta a cidade de Londres, na Inglaterra",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = true, Descricao= "TÂMISA" },
+                        new Alternativa{Correta = false, Descricao= " SENA" },
+                        new Alternativa{Correta = false, Descricao= "RENO" },
+                        new Alternativa{Correta = false, Descricao= "AUBE" }
+                     }
+              },
+                new Pergunta
+              {
+                     Id= 19,
+                     Enunciado= "Qual é a letra do alfabeto que simboliza o número dez em algarismo romano?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = false, Descricao= "V" },
+                        new Alternativa{Correta = false, Descricao= " D" },
+                        new Alternativa{Correta = false, Descricao= "L" },
+                        new Alternativa{Correta = true, Descricao= "X" }
+                     }
+              },
+                new Pergunta
+              {
+                     Id= 20,
+                     Enunciado= "Quem introduziu o futebol no Brasil?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = false, Descricao= "PELÉ" },
+                        new Alternativa{Correta = false, Descricao= " JOÃO HAVELANGE" },
+                        new Alternativa{Correta = false, Descricao= "CHARLES MILLER" },
+                        new Alternativa{Correta = true, Descricao= "PAULO MACHADO" }
+                     }
+              },
+
+        List<Pergunta> perguntas_dificeis = new()
+
+                new Pergunta
+              {
+                     Id= 1,
+                     Enunciado= "Em qual espécie o macho choca os ovos e a fêmea procura alimento?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = false, Descricao= "ANDORINHA" },
+                        new Alternativa{Correta = false, Descricao= " PATO SELVAGEM" },
+                        new Alternativa{Correta = true, Descricao= "PINGUIM" },
+                        new Alternativa{Correta = false, Descricao= "MARRECO" }
+                     }
+              },
+                new Pergunta
+              {
+                     Id= 2,
+                     Enunciado= "Onde nasceu Van Gogh, o grande pintor impressionista?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = false, Descricao= "POLONIA" },
+                        new Alternativa{Correta = false, Descricao= " FRANÇA" },
+                        new Alternativa{Correta = false, Descricao= "ITALIA" },
+                        new Alternativa{Correta = true, Descricao= "HOLANDA" }
+                     }
+              },
+                new Pergunta
+              {
+                     Id= 3,
+                     Enunciado= "Qual desses quatro pesos é o mais leve?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = false, Descricao= "10 ONÇAS" },
+                        new Alternativa{Correta = false, Descricao= "10 GRAMAS" },
+                        new Alternativa{Correta = false, Descricao= "10 QUILOS" },
+                        new Alternativa{Correta = true, Descricao= "10 LIBRAS" }
+                     }
+              },
+                new Pergunta
+              {
+                     Id= 4,
+                     Enunciado= "Que ramo da pecuária ocupa se de bodes e cabras",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = false, Descricao= "ASININO" },
+                        new Alternativa{Correta = true, Descricao= "CAPRINO" },
+                        new Alternativa{Correta = false, Descricao= "BUFALINO" },
+                        new Alternativa{Correta = false, Descricao= "MUAR" }
+                     }
+              },
+
+                new Pergunta
+              {
+                     Id= 5,
+                     Enunciado= "Qual oceano tem o maior volume de água?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = false, Descricao= "ATLÂNTICO" },
+                        new Alternativa{Correta = true, Descricao= "PACÍFICO" },
+                        new Alternativa{Correta = false, Descricao= "ÍNDICO" },
+                        new Alternativa{Correta = false, Descricao= "ÁRTICO" }
+                     }
+              },
+                new Pergunta
+              {
+                     Id= 6,
+                     Enunciado= "Qual foi o último presidente militar do Brasil?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = false, Descricao= "FERNANDO COLLOR" },
+                        new Alternativa{Correta = true, Descricao= "JOÃO FIGUEIREDO" },
+                        new Alternativa{Correta = false, Descricao= "TANCREDO NEVES" },
+                        new Alternativa{Correta = false, Descricao= "JOÃO GOULART" }
+                     }
+              },
+                new Pergunta
+              {
+                     Id= 7,
+                     Enunciado= "Que conflito ideológico envolveu os EUA e a União Soviética?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = true, Descricao= "GUERRA FRIA" },
+                        new Alternativa{Correta = false, Descricao= "GUERRA DO VIETNÃ" },
+                        new Alternativa{Correta = false, Descricao= "GUERRA NAS ESTRELAS" },
+                        new Alternativa{Correta = false, Descricao= "GUERRA DA CORÉIA" }
+                     }
+              },
+                new Pergunta
+              {
+                     Id= 8,
+                     Enunciado= "O trapézio é um músculo que está situado:",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = true, Descricao= "NO PESCOÇO" },
+                        new Alternativa{Correta = false, Descricao= "NO OMBRO" },
+                        new Alternativa{Correta = false, Descricao= "NA CABEÇA" },
+                        new Alternativa{Correta = false, Descricao= "NO BRAÇO" }
+                     }
+              },
+                 new Pergunta
+              {
+                     Id= 9,
+                     Enunciado= "Que parte do corpo humano é infectada pela cólera?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = false, Descricao= " GARGANTA" },
+                        new Alternativa{Correta = true, Descricao= "INTESTINO" },
+                        new Alternativa{Correta = false, Descricao= "PULMÕES" },
+                        new Alternativa{Correta = false, Descricao= " RINS" }
+                     }
+              },
+                 new Pergunta
+              {
+                     Id= 10,
+                     Enunciado= "A união do espermatozóide com o óvulo origina uma célula chamada:",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = true, Descricao= " ZIGOTO" },
+                        new Alternativa{Correta = false, Descricao= "BIGOTO" },
+                        new Alternativa{Correta = false, Descricao= " FETO" },
+                        new Alternativa{Correta = false, Descricao= "  GAROTO" }
+                     }
+              },
+                 new Pergunta
+              {
+                     Id= 11,
+                     Enunciado= "Que nome recebe a foz de um rio que se abre para o mar?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = true, Descricao= " ALAGADO" },
+                        new Alternativa{Correta = false, Descricao= "MANGUEZAL" },
+                        new Alternativa{Correta = false, Descricao= " PÂNTANO" },
+                        new Alternativa{Correta = false, Descricao= "  ESTUÁRIO" }
+                     }
+              },
+                 new Pergunta
+              {
+                     Id= 12,
+                     Enunciado= "Em que ano Ayrton Senna venceu o primeiro campeonato de Fórmula 1?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = true, Descricao= " 1987" },
+                        new Alternativa{Correta = false, Descricao= "1990" },
+                        new Alternativa{Correta = false, Descricao= " 1985" },
+                        new Alternativa{Correta = false, Descricao= "  1988" }
+                     }
+              },
+                 new Pergunta
+              {
+                     Id= 13,
+                     Enunciado= "Qual é a menor República do mundo?",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = true, Descricao= " MÔNACO" },
+                        new Alternativa{Correta = false, Descricao= "SAN MARINO" },
+                        new Alternativa{Correta = false, Descricao= " NOVA ZELÂNDIA" },
+                        new Alternativa{Correta = false, Descricao= " CHINA" }
+                     }
+              },
+                 new Pergunta
+              {
+                     Id= 14,
+                     Enunciado= "De quem é a frase ”Penso, logo existo”",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = true, Descricao= "  PLATÃO" },
+                        new Alternativa{Correta = false, Descricao= " JÚLIO VERNE" },
+                        new Alternativa{Correta = false, Descricao= "  ARISTÓTELES" },
+                        new Alternativa{Correta = false, Descricao= "  RENÉ DESCARTES" }
+                     }
+              },
+                  new Pergunta
+              {
+                     Id= 15,
+                     Enunciado= "Quem construiu o primeiro telescópio astronômico completo",
+                     Alternativas= new()
+                     {
+                        new Alternativa{Correta = true, Descricao= "  CYRUS MCCORMICK" },
+                        new Alternativa{Correta = false, Descricao= " THOMAS EDISON" },
+                        new Alternativa{Correta = false, Descricao= "  MICHELANGELO" },
+                        new Alternativa{Correta = false, Descricao= "  GALILEU GALILEI\r\n" }
+                     }
+              },
+
+
+
+
+
+
 
 
 
